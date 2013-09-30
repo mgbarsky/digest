@@ -62,7 +62,7 @@ int prepareLine(char *from, char *to, int *size)
 			switch (curr)
 			{
 				case 'a': case 'c': case 'g': case 't': case 'A': case 'C': case 'G': case 'T':					 				
-					to[i]=toupper(curr);
+					to[i]=tolower(curr);
 					break;
 				default:
 					return 0; //invalid character encountered - ignore the line

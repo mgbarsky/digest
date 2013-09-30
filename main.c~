@@ -28,7 +28,7 @@ main(int argc, char *argv[])
 	sprintf(inputFileNamePrefix,"%s", argv[1]);
 	totalInputFiles = atoi(argv[2]);
 	availmemoryInputBuffersBytes = atoi(argv[3]);
-	maxOutputBufferElements = atoi(argv[4]);
+	maxOutputBufferElements = atoi(argv[3]);
 	
 	
 	result = buildSuffixArraysForAllFiles(inputFileNamePrefix, totalInputFiles);

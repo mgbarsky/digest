@@ -28,6 +28,7 @@ int mergeRuns (EMMergeManager *merger)  //merger should be already set up at thi
 		if(getTopHeapElement (merger, &smallest)!=0)
 			return 1;
 		
+		printf("merger->lastTransferred.header.info.fileID=%d\n",merger->lastTransferred.header.info.fileID);
 		if(convertHeapElementToOutputElement (merger, &smallest, &outputElem)!=0)
 			return 1;
 

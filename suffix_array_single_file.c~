@@ -97,15 +97,15 @@ int getSuffixLengthWithEncoding(int suffixStart, unsigned char *sequence, int se
 		suffixLength++;
 		switch( currentChar ) 
 		{
-		    case 'A': //00				
+		    case 'a': //00				
 			break;
-		    case 'C': //01
+		    case 'c': //01
 			setBit64(&(bitArray[currentLongID]), currentBit+1);
 			break;
-		    case 'G': //10
+		    case 'g': //10
 			setBit64(&(bitArray[currentLongID]), currentBit);
 			break;
-		    case 'T': //11
+		    case 't': //11
 			setBit64(&(bitArray[currentLongID]), currentBit);
 			setBit64(&(bitArray[currentLongID]), currentBit+1);
 			break;
