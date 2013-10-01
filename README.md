@@ -36,9 +36,11 @@ Single machine processing
 
 The steps can be run separately:
 ./buildsaallfiles inputs/input_ <num_files>
-./mergesasinglefile inputs/input_ <num_files> <memory_bytes_for_all_input_buffers> <elements_in_output_buffer>
+./mergesasinglefile inputs/input_ 'num_files' 'memory_bytes_for_all_input_buffers' 'elements_in_output_buffer'
 
 or as a single program
-./buildandmerge inputs/input_ <num_files> <memory_bytes_for_all_input_buffers> <elements_in_output_buffer>
+./buildandmerge inputs/input_ 'num_files' 'memory_bytes_for_all_input_buffers' 'elements_in_output_buffer'
+
+two last parameters define memory usage during the merge
 
 
