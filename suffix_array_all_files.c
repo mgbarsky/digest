@@ -162,15 +162,3 @@ freeMemoryAfterSAForAll(SABuildManager* manager)
 	}
 	return 0;
 }
-
-int 
-allocateArraysForLarsson(SABuildManager *manager, int seqlen)
-{
-	return 0;
-}
-
-int 
-allocateArraysForMori(SABuildManager *manager, int seqlen)
-{
-	return 0;
-}
