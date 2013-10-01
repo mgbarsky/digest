@@ -162,6 +162,7 @@ freeMemoryAfterSAForAll(SABuildManager* manager)
 	}
 	return 0;
 }
+
 int 
 allocateArraysForLarsson(SABuildManager *manager, int seqlen)
 {
